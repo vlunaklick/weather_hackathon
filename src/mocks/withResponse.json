@@ -1,0 +1,60 @@
+{
+    "latitude": -34.75,
+    "longitude": -58.375,
+    "timezoneAbbr": "-03",
+    "elevation": 21,
+    "precipitationProbability": 0,
+    "humidity": 71,
+    "currentWeather": {
+        "temperature": 26.5,
+        "windspeed": 7.2,
+        "winddirection": 63,
+        "weathercode": 2,
+        "time": "2023-03-12T23:00"
+    },
+    "forecast": [
+        {
+            "time": "2023-03-12",
+            "apparent_temperature_max": 37.1,
+            "apparent_temperature_min": 28.9,
+            "weathercode": 3
+        },
+        {
+            "time": "2023-03-13",
+            "apparent_temperature_max": 37.1,
+            "apparent_temperature_min": 27.3,
+            "weathercode": 3
+        },
+        {
+            "time": "2023-03-14",
+            "apparent_temperature_max": 38.8,
+            "apparent_temperature_min": 28.3,
+            "weathercode": 3
+        },
+        {
+            "time": "2023-03-15",
+            "apparent_temperature_max": 35.7,
+            "apparent_temperature_min": 28.7,
+            "weathercode": 95
+        },
+        {
+            "time": "2023-03-16",
+            "apparent_temperature_max": 31.2,
+            "apparent_temperature_min": 28.4,
+            "weathercode": 95
+        },
+        {
+            "time": "2023-03-17",
+            "apparent_temperature_max": 33.4,
+            "apparent_temperature_min": 25.2,
+            "weathercode": 80
+        },
+        {
+            "time": "2023-03-18",
+            "apparent_temperature_max": 26.9,
+            "apparent_temperature_min": 16.9,
+            "weathercode": 3
+        }
+    ],
+    "feelsLike": 29.7
+}
