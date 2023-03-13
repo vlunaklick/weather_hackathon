@@ -1,7 +1,8 @@
 import type { AppProps } from 'next/app'
 
-import { Inter } from 'next/font/google'
+import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
+import { Inter } from 'next/font/google'
 
 import '@/styles/globals.css'
 
@@ -14,7 +15,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Tempcast</title>
       </Head>
 
-      <Component {...pageProps} />
+      <ThemeProvider attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
 
       <style global jsx>{`
         font-family: ${inter.style.fontFamily};
