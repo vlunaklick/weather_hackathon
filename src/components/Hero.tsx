@@ -23,7 +23,7 @@ export default function Hero({
 }: Props): React.ReactElement {
   return (
     <>
-      <div className="flex flex-col h-full gap-2 p-4 rounded-lg shadow w-full border border-slate-100 dark:border-slate-800 relative overflow-hidden">
+      <div className="flex flex-col h-full gap-2 p-4 rounded-lg w-full border border-slate-100 dark:border-slate-800 relative overflow-hidden">
         <h2 className="text-xs text-slate-600 dark:text-slate-400">{location}</h2>
 
         <h1 className="text-7xl font-bold text-slate-800 dark:text-slate-100 w-max">

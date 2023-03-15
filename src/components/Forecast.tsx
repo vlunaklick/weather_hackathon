@@ -15,7 +15,7 @@ export default function Forecast({ item, today = false }: Props): React.ReactEle
 
   return (
     <>
-      <div className="flex flex-row w-full items-center justify-between p-2 rounded-lg shadow backdrop-blur-sm bg-opacity-10 border border-slate-100 dark:border-slate-800">
+      <div className="flex flex-row w-full items-center justify-between p-2 rounded-lg backdrop-blur-sm bg-opacity-10 border border-slate-100 dark:border-slate-800">
         <time className="text-slate-600 text-sm min-w-[80px] dark:text-slate-300" title={item.time}>
           {today ? 'Today' : getWeekday(item.time)}
         </time>
